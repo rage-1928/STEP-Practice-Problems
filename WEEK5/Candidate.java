@@ -2,9 +2,9 @@ import java.util.Arrays;
 
 class Candidate implements Comparable<Candidate> {
 
-    private String name;
-    private double cgpa;
-    private int codingScore;
+    private final String name;
+    private final double cgpa;
+    private final int codingScore;
 
     public Candidate(String name, double cgpa, int codingScore) {
         this.name = name;
